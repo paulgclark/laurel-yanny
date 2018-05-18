@@ -90,6 +90,105 @@
     </param>
   </block>
   <block>
+    <key>variable_qtgui_chooser</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(584, 10)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>audio_select</value>
+    </param>
+    <param>
+      <key>label0</key>
+      <value>Original</value>
+    </param>
+    <param>
+      <key>label1</key>
+      <value>Laurel</value>
+    </param>
+    <param>
+      <key>label2</key>
+      <value>Yanny</value>
+    </param>
+    <param>
+      <key>label3</key>
+      <value></value>
+    </param>
+    <param>
+      <key>label4</key>
+      <value></value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>labels</key>
+      <value>[]</value>
+    </param>
+    <param>
+      <key>num_opts</key>
+      <value>3</value>
+    </param>
+    <param>
+      <key>option0</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>option1</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>option2</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>option3</key>
+      <value>3</value>
+    </param>
+    <param>
+      <key>option4</key>
+      <value>4</value>
+    </param>
+    <param>
+      <key>options</key>
+      <value>[0, 1, 2]</value>
+    </param>
+    <param>
+      <key>orient</key>
+      <value>Qt.QVBoxLayout</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>int</value>
+    </param>
+    <param>
+      <key>widget</key>
+      <value>radio_buttons</value>
+    </param>
+  </block>
+  <block>
     <key>variable_qtgui_range</key>
     <param>
       <key>comment</key>
@@ -98,6 +197,69 @@
     <param>
       <key>value</key>
       <value>2000</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(340, 8)</value>
+    </param>
+    <param>
+      <key>gui_hint</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>hpf_cutoff_freq</value>
+    </param>
+    <param>
+      <key>label</key>
+      <value></value>
+    </param>
+    <param>
+      <key>min_len</key>
+      <value>200</value>
+    </param>
+    <param>
+      <key>orient</key>
+      <value>Qt.Horizontal</value>
+    </param>
+    <param>
+      <key>start</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>step</key>
+      <value>100</value>
+    </param>
+    <param>
+      <key>stop</key>
+      <value>10000</value>
+    </param>
+    <param>
+      <key>rangeType</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>widget</key>
+      <value>counter_slider</value>
+    </param>
+  </block>
+  <block>
+    <key>variable_qtgui_range</key>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>value</key>
+      <value>4500</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -117,7 +279,7 @@
     </param>
     <param>
       <key>id</key>
-      <value>cutoff_freq</value>
+      <value>lpf_cutoff_freq</value>
     </param>
     <param>
       <key>label</key>
@@ -195,7 +357,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(340, 8)</value>
+      <value>(464, 8)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -270,105 +432,6 @@
     </param>
   </block>
   <block>
-    <key>variable_qtgui_chooser</key>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(456, 10)</value>
-    </param>
-    <param>
-      <key>gui_hint</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>yanny_select</value>
-    </param>
-    <param>
-      <key>label0</key>
-      <value>Laurel</value>
-    </param>
-    <param>
-      <key>label1</key>
-      <value>Yanny</value>
-    </param>
-    <param>
-      <key>label2</key>
-      <value></value>
-    </param>
-    <param>
-      <key>label3</key>
-      <value></value>
-    </param>
-    <param>
-      <key>label4</key>
-      <value></value>
-    </param>
-    <param>
-      <key>label</key>
-      <value></value>
-    </param>
-    <param>
-      <key>labels</key>
-      <value>[]</value>
-    </param>
-    <param>
-      <key>num_opts</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>option0</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>option1</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>option2</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>option3</key>
-      <value>3</value>
-    </param>
-    <param>
-      <key>option4</key>
-      <value>4</value>
-    </param>
-    <param>
-      <key>options</key>
-      <value>[0, 1, 2]</value>
-    </param>
-    <param>
-      <key>orient</key>
-      <value>Qt.QVBoxLayout</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>int</value>
-    </param>
-    <param>
-      <key>widget</key>
-      <value>radio_buttons</value>
-    </param>
-  </block>
-  <block>
     <key>audio_sink</key>
     <param>
       <key>alias</key>
@@ -392,7 +455,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(792, 272)</value>
+      <value>(792, 220)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -435,7 +498,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(632, 264)</value>
+      <value>(652, 212)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -447,7 +510,7 @@
     </param>
     <param>
       <key>input_index</key>
-      <value>yanny_select</value>
+      <value>audio_select</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -459,7 +522,7 @@
     </param>
     <param>
       <key>num_inputs</key>
-      <value>2</value>
+      <value>3</value>
     </param>
     <param>
       <key>num_outputs</key>
@@ -502,7 +565,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(28, 228)</value>
+      <value>(28, 196)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -549,7 +612,7 @@
     </param>
     <param>
       <key>cutoff_freq</key>
-      <value>cutoff_freq</value>
+      <value>hpf_cutoff_freq</value>
     </param>
     <param>
       <key>decim</key>
@@ -565,7 +628,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(228, 318)</value>
+      <value>(228, 386)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -578,6 +641,81 @@
     <param>
       <key>id</key>
       <value>high_pass_filter_0</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>maxoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>minoutbuf</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>50</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>firdes.WIN_HAMMING</value>
+    </param>
+  </block>
+  <block>
+    <key>low_pass_filter</key>
+    <param>
+      <key>beta</key>
+      <value>6.76</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>cutoff_freq</key>
+      <value>lpf_cutoff_freq</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fir_filter_fff</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(228, 250)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>volume</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>low_pass_filter_0</value>
     </param>
     <param>
       <key>interp</key>
@@ -652,7 +790,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(632, 340)</value>
+      <value>(632, 408)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -951,7 +1089,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(632, 164)</value>
+      <value>(408, 324)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1230,7 +1368,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(408, 340)</value>
+      <value>(408, 408)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1242,7 +1380,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>480</value>
+      <value>441</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -1281,7 +1419,7 @@
   </connection>
   <connection>
     <source_block_id>blocks_wavfile_source_0</source_block_id>
-    <sink_block_id>qtgui_freq_sink_x_0_0</sink_block_id>
+    <sink_block_id>low_pass_filter_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -1292,10 +1430,22 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>rational_resampler_xxx_0</source_block_id>
+    <source_block_id>low_pass_filter_0</source_block_id>
     <sink_block_id>blks2_selector_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>1</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>low_pass_filter_0</source_block_id>
+    <sink_block_id>qtgui_freq_sink_x_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>rational_resampler_xxx_0</source_block_id>
+    <sink_block_id>blks2_selector_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>2</sink_key>
   </connection>
   <connection>
     <source_block_id>rational_resampler_xxx_0</source_block_id>
